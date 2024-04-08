@@ -1,5 +1,4 @@
 "use client"
-
 import Image from "next/image"
 import Link from "next/link"
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai"
@@ -14,8 +13,8 @@ const Nav = () => {
     setMenuOpen(!menuOpen)
   }
   return (
-    <nav className="fixed w-full h-24 shadow-xl bg-white">
-      <div className="flex justify-between items-center h-full w-full px-4 2xl:px-16">
+    <nav className="sticky fixed w-full h-24 shadow-xl bg-white z-0">
+      <div className="flex justify-between items-center h-full w-full px-4 2xl:px-16 z-0">
         <Link href="/">
           <div className="flex justify-between items-center">
             <Image

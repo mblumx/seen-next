@@ -12,9 +12,9 @@ export default function Home() {
   return (
     //hero
 
-    <div className="flex flex-row justify-between w-full bg-slate-950 mx-auto overflow-hidden">
-      <div className="flex items-center w-full gap-14 flex-col text-white bg-slate-950 mx-auto pt-48">
-        <h1 className="text-center lg:text-left text-5xl font-bold px-0">
+    <div className="flex flex-row justify-between bg-slate-950 mx-auto overflow-hidden">
+      <div className="flex items-center gap-14 flex-col text-white mx-auto pt-48">
+        <h1 className="text-center lg:text-left px-4  text-5xl font-bold lg:px-0">
           The Must-See App for Film Buffs.
         </h1>
         <div className="text-center text-lg">

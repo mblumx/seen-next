@@ -12,7 +12,7 @@ export default function Home() {
   return (
     //hero
 
-    <div className="flex flex-row justify-between bg-slate-950 mx-auto overflow-hidden">
+    <div className="flex flex-row justify-between bg-gradient-to-b from-slate-950 to-slate-700  mx-auto overflow-hidden">
       <div className="flex items-center gap-14 flex-col text-white mx-auto pt-48">
         <h1 className="text-center lg:text-left px-4  text-5xl font-bold lg:px-0">
           The Must-See App for Film Buffs.
@@ -26,7 +26,7 @@ export default function Home() {
         <div className="flex gap-10">
           <button
             type="button"
-            className="text-white bg-gradient-to-r from-red-400 uppercase via-red-500 to-red-600 hover:ring-4 ring-white focus:outline-none  font-semibold  rounded-lg text-lg px-3 py-2 text-center me-2 mb-2"
+            className="text-white uppercase bg-red-600 hover:ring-4 ring-white focus:outline-none  font-semibold  rounded-lg text-lg px-3 py-2 text-center me-2 mb-2"
           >
             Get Started
           </button>

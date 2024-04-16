@@ -6,7 +6,7 @@ import accountIcon from "../../public/accountIcon.svg"
 
 const Dash = () => {
   return (
-    <div className=" bg-slate-950 mx-auto w-full min-h-[calc(100svh-96px)]">
+    <div className="bg-gradient-to-b from-slate-950 to-slate-700mx-auto w-full min-h-[calc(100svh-96px)]">
       <div className="flex">
         <h1 className="flex mx-auto text-white text-5xl font-bold py-20">
           Dashboard

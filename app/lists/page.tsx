@@ -15,27 +15,35 @@ const Lists = () => {
   ]
 
   return (
-    <div className="flex flex-col bg-gradient-to-b from-slate-950 to-slate-700 mx-auto w-full min-h-[calc(100svh-96px)]">
+    <div className="md:flex flex-col items-center bg-gradient-to-b from-slate-950 to-slate-600 mx-auto w-full min-h-[calc(100svh-96px)]">
       <div className="flex">
-        <h1 className="flex  text-white text-5xl font-bold mx-auto py-20">
+        <h1 className="text-white text-3xl lg:text-5xl font-bold mx-auto pt-20 pb-16">
           My Lists
         </h1>
       </div>
 
-      <div className="container px-12 mx-auto grid lg:grid-cols-3 lg:grid-rows-3 gap-x-0 lg:gap-y-8 overflow-y-scroll text-black font-semibold">
+      <div className="mt-12 max-w-7xl grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 px-6 sm:px-8 md:px-12 gap-12 py-4">
         {foo.map((bar, index) => (
           <div
-            className="flex flex-col w-fit min-w-64 align-center bg-white rounded-lg text-center border-2 border-red-100 "
             key={index}
+            className="max-w-sm mx-auto sm:mx-0 border-4 rounded-lg shadow bg-black border-red-950 overflow-hidden"
           >
-            <Image
-              className="self-center rounded-full"
-              src={fallguy}
-              alt={"The Fall Guy"}
-              height={120}
-            />
-            <div className="mx-auto max-w-48 truncate">
-              <h3 className="">{bar}</h3>
+            <a href="#">
+              <Image
+                className="hidden sm:flex "
+                src={fallguy}
+                alt="Movie Poster"
+              />
+            </a>
+            <div className="p-4">
+              <a href="#">
+                <h5 className="mb-2 text-lg font-bold tracking-tight line-clamp-3 text-gray-900 dark:text-white">
+                  Noteworthy technology acquisitions 2021
+                </h5>
+              </a>
+              <p className="mb-3 font-normal text-sm text-slate-200 line-clamp-3">
+                {bar}
+              </p>
             </div>
           </div>
         ))}
@@ -43,4 +51,5 @@ const Lists = () => {
     </div>
   )
 }
+
 export default Lists

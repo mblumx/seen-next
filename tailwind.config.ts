@@ -6,6 +6,15 @@ const config: Config = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+
+  variants: {
+    extend: {
+      // ...
+
+      zIndex: ["hover", "active", "transform", "transition", "ease-in"],
+    },
+  },
+
   theme: {
     extend: {
       backgroundImage: {

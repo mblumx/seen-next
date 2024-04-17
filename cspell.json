@@ -1,9 +1,13 @@
 {
-    "version": "0.2",
-    "ignorePaths": [],
-    "dictionaryDefinitions": [],
-    "dictionaries": [],
-    "words": [],
-    "ignoreWords": [What's],
-    "import": []
+  "version": "0.2",
+  "ignorePaths": [],
+  "dictionaryDefinitions": [],
+  "dictionaries": [],
+  "words": [
+    "fallguy"
+  ],
+  "ignoreWords": [
+    "What's"
+  ],
+  "import": []
 }

@@ -12,8 +12,8 @@ const Dash = () => {
           Dashboard
         </h1>
       </div>
-      <div className="flex flex-wrap md:gap-12 justify-center z-0">
-        <div className="0z-0  hover:z-0 hover:cursor-pointer overflow-hidden flex flex-col sm:w-64 w-full  bg-red-950 hover:bg-red-100  duration-100 transition-all rounded-md shadow-md  m-6">
+      <div className="flex flex-wrap md:gap-16 justify-center z-0">
+        <div className="z-0  hover:z-0 hover:cursor-pointer overflow-hidden flex flex-col sm:w-64 w-full  bg-red-950 hover:bg-red-100  duration-100 transition-all rounded-md shadow-md  m-6">
           <Image
             src={fireIcon}
             alt={"What's Hot?"}
@@ -23,7 +23,7 @@ const Dash = () => {
             <h2 className=" text-white text-center font-semibold text-2xl px-2 py-5">
               What&apos;s Hot
             </h2>
-            <p className=" text-slate-300 p-3 text-center">
+            <p className="text-slate-300 p-3 mb-2 text-center">
               See which new movies were just released!
             </p>
           </div>
@@ -39,7 +39,7 @@ const Dash = () => {
             <h2 className=" text-white text-center font-semibold text-2xl px-2 py-5">
               My Lists
             </h2>
-            <p className=" text-slate-300 p-3 text-center">
+            <p className=" text-slate-300 p-3 mb-2 text-center">
               Curate personalized lists of movies
             </p>
           </div>
@@ -55,7 +55,7 @@ const Dash = () => {
             <h2 className=" text-white text-center font-semibold text-2xl px-2 py-5">
               Account
             </h2>
-            <p className=" text-slate-300 p-3 text-center">
+            <p className=" text-slate-300 p-3 mb-2  text-center">
               Update e-mail, password, and other settings
             </p>
           </div>
